@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+  int a, b, wynik = 1;
+
+  scanf("%d %d , &a, &b);
+
+  for (int i = 0; i <b; i++) {
+    wynik *= a;
+    }
+    printf("%d\n", wynik);
+    return 0;
+  }
