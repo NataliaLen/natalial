@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int NWD(int a, int b) {
+    return (b == 0) ? a : NWD( b, a %
+    b);
+    }
+
+    int main() {
+        int a, b;
+        scanf("%d %d", &a. &b);
+        printf("%d\n", NWD(a, b));
+        return 0;
+        }
