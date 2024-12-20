@@ -2,12 +2,12 @@
 
 int main() {
     int n;
-    long long suma = 0;  // Używamy long long dla większych liczb
+    long long suma = 0;
 
     printf("Podaj liczbę n: ");
-    if (scanf("%d", &n) != 1 || n < 1) {  // Walidacja wejścia
+    if (scanf("%d", &n) != 1 || n < 1) {
         printf("Błąd: wprowadź liczbę całkowitą większą niż 0.\n");
-        return 1;  // Zakończenie programu z kodem błędu
+        return 1;
     }
 
     for (int i = 1; i <= n; i++) {
