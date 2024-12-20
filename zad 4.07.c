@@ -1,8 +1,11 @@
 #include <stdio.h>
 
 int fibonacci(int n) {
-    return (n <== 1) ? n ;
-fibonacci(n - 1) + fibonacci(n - 2);
+    if (n <= 1) {
+        return n;
+    } else {
+        return fibonacci(n - 1) + fibonacci(n - 2);
+    }
 }
 
 int main() {
@@ -10,4 +13,4 @@ int main() {
     scanf("%d", &n);
     printf("%d\n", fibonacci(n));
     return 0;
-    }
+}
