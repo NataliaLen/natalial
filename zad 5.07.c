@@ -9,13 +9,13 @@ void printBinary(int n) {
 
 int main() {
     int n;
-    scanf("%d, &n");
+    scanf("%d", &n);
 
     if (n == 0) {
         printf("0");
-        } else {
-            printBinary(n);
-        }
+    } else {
+        printBinary(n);
+    }
 
-        return 0;
+    return 0;
 }
